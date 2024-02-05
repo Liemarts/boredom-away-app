@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+body {
+  background-image: url('https://img.freepik.com/free-photo/optimism-wallpaper-with-smiley-face_23-2150039312.jpg?size=626&ext=jpg&uid=R97541849&ga=GA1.1.753254059.1658076302');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(189,227,230);
+}
+
+button {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+  margin-top: 50px;
+  background-color: #eb5184;
+  color: #ffff;
+  width: 20vh;
+  font-size: large;
+  cursor: pointer;
+}
+
+h1, h2, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #D61355;
+  font-size: 45px;
+  font-style: italic;
+}
+
+h2 {
+  color: #A31ACB;
+  margin-top: 33px;
+  background-color: rgb(228, 241, 255, 0.6);
+  padding: 13px;
+  border-radius: 7px;
+}
+
+@media all and (max-width:800px) {
+  h1 {
+      font-size: 38px;
+      text-align: center;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  button {
+      width: 15vh;
+  }
+
+  body {
+    background-position: center;
+  }
+}
+
+@media all and (max-width:500px) {
+  h1 {
+      font-size: 33px;
+  }
+
+
+  button {
+      width: 15vh;
+  }
+
+  body {
+    background-position: center;
+  }
+}
+
+@media all and (max-width:1024px) {
+
+  body {
+    background-position: center;
+  }
+}
